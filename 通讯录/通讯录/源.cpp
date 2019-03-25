@@ -3,10 +3,12 @@ using namespace std;
 #include<stdlib.h>
 #include<string>
 #include<vector>
-
+#include<fstream>
+#include"people.h"
+#include"Start.h"
 int main()
 {
-	FILE *fp;
-	fp = fopen("F:\\person.txt","w+");
-	Person 
+	Start tongxunlu;
+	tongxunlu.Display();
+
 }

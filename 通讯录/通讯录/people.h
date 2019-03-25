@@ -7,7 +7,7 @@ class Person
 protected:
 	string name;
 	string jp;
-	char sex;
+	string sex;
 	string comp;
 	string addr;
 	int tele;
@@ -19,7 +19,7 @@ public:
 	{}
 	string getname();
 	string getjp();
-	char getsex();
+	string getsex();
 	string getcomp();
 	string getaddr();
 	int gettele();
@@ -36,7 +36,7 @@ string Person::getjp()
 {
 	return jp;
 }
-char Person::getsex()
+string Person::getsex()
 {
 	return sex;
 }

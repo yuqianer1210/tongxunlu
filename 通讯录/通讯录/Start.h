@@ -8,7 +8,6 @@ class Start
 public:
 	Start()
 	{}
-	void Run();//运行程序
 	void output();//显示全部联系人
 	void Printone(set<Person>::iterator p);//打印某个联系人信息
 	void Insert();//添加
